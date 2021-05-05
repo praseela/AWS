@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: ***** #your access-key
+      secret-key: ************** #your secret-key
+    end-point:
+      uri: ****************** # your uri
